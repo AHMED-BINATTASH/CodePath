@@ -46,21 +46,93 @@
             <h2 class="section-title">9 Tips to Boost Your Productivity and Understanding in Your Learning Journey</h2>
             <div class="roadmap-container">
                 <!-- Roadmap Path -->
-                <div class="roadmap-path">
+               <html lang="en">
+                    <meta charset="UTF-8">
+                    <title>Roadmap Path</title>
+                    <style>
+                        body {
+                        font-family: Arial, sans-serif;
+                        margin: 20px;
+                        }
+
+                        .roadmap-path {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        }
+
+                        .path-line {
+                        flex: 1;
+                        height: 2px;
+                        background-color: #ccc;
+                        }
+
+                        .milestone {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin: 0 10px;
+                        }
+
+                        .milestone-dot {
+                        width: 20px;
+                        height: 20px;
+                        border-radius: 50%;
+                        background-color: #ccc;
+                        }
+
+                        .milestone.active .milestone-dot {
+                        background-color: #000;
+                        }
+
+                        .milestone-label {
+                        margin-top: 5px;
+                        text-align: center;
+                        }
+
+                        /* Responsive for phones */
+                        @media (max-width: 600px) {
+                        .roadmap-path {
+                            flex-direction: column;
+                            align-items: flex-start;
+                        }
+
+                        .path-line {
+                            width: 2px;
+                            height: auto;
+                        }
+
+                        .milestone {
+                            flex-direction: row;
+                            align-items: center;
+                            margin: 10px 0;
+                        }
+
+                        .milestone-label {
+                            margin-top: 0;
+                            margin-left: 10px;
+                        }
+                        }
+                    </style>
+                    <body>
+
+                    <div class="roadmap-path">
                     <div class="path-line"></div>
                     <div class="milestone active" data-stage="beginner">
                         <div class="milestone-dot"></div>
-                        <div class="milestone-label">9 Tips to B</div>
+                        <div class="milestone-label">9 Tips to </div>
                     </div>
                     <div class="milestone" data-stage="intermediate">
                         <div class="milestone-dot"></div>
-                        <div class="milestone-label">oost Your P</div>
+                        <div class="milestone-label">Boost Your </div>
                     </div>
                     <div class="milestone" data-stage="advanced">
                         <div class="milestone-dot"></div>
-                        <div class="milestone-label">roductivity</div>
+                        <div class="milestone-label">Productivity</div>
                     </div>
-                </div>
+                    </div>
+
 
 
                 <!-- Roadmap Content -->
